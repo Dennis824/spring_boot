@@ -1,0 +1,35 @@
+drop table if exists products cascade;
+create table products (id bigserial, title varchar(255), description varchar(5000), price int, primary key(id));
+insert into products
+(title, description, price) values
+('carrot','морковь', 10 ),
+('aubergine','баклажан', 40 ),
+('cauliflower','цветная капуста', 41 ),
+('onion','лук', 59 ),
+('garlic','чеснок', 26 ),
+('leeks','лук-порей', 53 ),
+('broccoli','брокколи', 58 ),
+('cabbage','капуста', 97 ),
+('cucumber','огурец', 93 ),
+('tomato','помидор', 23 ),
+('potato','картофель', 84 ),
+('courgette','кабачок', 38 ),
+('spinach','шпинат', 46 ),
+('mushrooms','грибы', 26 ),
+('beans','бобы', 43 ),
+('peas','горох', 38 ),
+('pepper','перец', 32 ),
+('orange','апельсин', 79 ),
+('banana','банан', 52 ),
+('pear','груша', 28 ),
+('grapes','виноград', 84 ),
+('strawberry','клубника', 19 ),
+('apple','яблоко', 71 ),
+('lemon','лимон', 69 ),
+('peach','персик', 37 ),
+('cherry','вишня', 51 ),
+('melon','дыня', 58 ),
+('watermelon','арбуз', 64 ),
+('kiwi','киви', 6 ),
+('pineapple','ананас', 3 );
+
